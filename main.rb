@@ -23,7 +23,7 @@ def authorize
     puts "Open the following URL in your browser and enter the resulting code:"
     puts url
     print "Enter the code: "
-    code = gets
+    code = STDIN.gets.chomp
     credentials = authorizer.get_and_store_credentials_from_code(
       user_id: user_id, code: code, base_url: OOB_URI
     )
