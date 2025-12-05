@@ -107,6 +107,7 @@ def move_directory_files_into_gdrive(directory_path,  folder_id: nil)
   Dir.glob(File.join(File.expand_path(directory_path), '*')).each do |file_path|
     next unless File.file?(file_path)
     move_single_file_into_gdrive(file_path, folder_id: folder_id)
+    sleep 0.5
   end
 end
 
