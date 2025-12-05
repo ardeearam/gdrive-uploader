@@ -1,3 +1,4 @@
 service-account.json
 client_secrets.json
 .bundle
+Gemfile.lock
