@@ -1,3 +1,5 @@
+This scripts moves all of your files from a certiain directory to a Google Drive folder.
+
 # Usage
 
 ```
