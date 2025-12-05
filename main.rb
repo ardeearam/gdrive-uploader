@@ -110,6 +110,4 @@ def move_directory_files_into_gdrive(directory_path,  folder_id: nil)
   end
 end
 
-windows_bir_ardee_relly_root_folder_id = "15LbzXJEtttMOhdAOT9A_HSaw4L1g45nr"
-test_folder_id = "1XHuQUSBLiy8kM1L3vIeREQW4n9FhKwo2"
 move_directory_files_into_gdrive(ARGV[0], folder_id: ARGV[1])
