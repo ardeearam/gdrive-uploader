@@ -10,7 +10,7 @@ bundle exec ruby main.rb /directory/to/backup GOOGLE_DIRECTORY_ID
 
 * client_secrets.json — download this from Google Cloud Console:
 * Go to Google Cloud Console
-* Select your project (hip-heading-480222-k6)
+* Select your project (some-project-123456-k6)
 * Go to APIs & Services > Credentials
 * Click Create Credentials > OAuth client ID
 * Application type: Desktop app
@@ -30,7 +30,7 @@ klaudsol-gdrive has not completed the Google verification process. The app is cu
 
 Steps to add yourself as a test user:
 * Go to Google Cloud Console
-* Select your project: hip-heading-480222-k6
+* Select your project: some-project-123456-k6
 * Go to APIs & Services > OAuth consent screen
 * Scroll to Test users
 * Click + ADD USERS
